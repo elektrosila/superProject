@@ -1,0 +1,160 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family:"PT Sans", Roboto, "Segoe UI", sans-serif;
+  font-size: 18px;
+}
+
+p {
+  margin: 0;
+}
+
+.partners-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  border: 1px solid black;
+  width: 700px;
+  padding: 20px;
+  gap: 20px;
+}
+
+.partner-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 700px;
+  justify-content: space-around;
+  border: 1px solid black;
+  justify-content: space-between;
+  border-radius: 8px; /* Добавлено для округлых углов */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Легкая тень */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.partner-card:hover {
+  background-color: #2196f37a;
+  cursor: pointer;
+  transform: translateY(-5px); /* Добавлено для эффекта подъема */
+}
+
+.card_heading {
+  font-size: 22px;
+  align-self: start;
+}
+
+.page-title {
+  position: relative;
+  text-align: center;
+
+}
+
+.page-heading {
+  display: flex;
+  flex-direction: row;
+  width: 700px;
+  gap: 50px;
+}
+
+.page-logo {
+  width: 120px;
+}
+
+.partner-data {
+  display: flex;
+  flex-direction: column;
+  margin: 14px 40px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-submit {
+  padding: 8px 16px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 20px auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.button-submit:hover {
+  background-color: #1976D2;
+  transform: scale(1.05);
+}
+
+.button-submit:active {
+  transform: scale(0.98);
+}
+
+.btn-back {
+  padding: 10px 20px;
+  background-color: #f1f1f1;
+  color: #333;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.1s ease;
+}
+
+.btn-back:hover {
+  background-color: #e0e0e0;
+  border-color: #888;
+  transform: scale(1.05);
+}
+
+.btn-back:active {
+  transform: scale(0.98);
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease;
+}
+
+input:focus, select:focus {
+  border-color: #2196f3;
+  outline: none;
+  background-color: #fff;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 5px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+/* Дополнительно улучшение фокуса */
+input:focus, select:focus {
+  border-color: #2196F3;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(33, 150, 243, 0.5); /* Легкая тень при фокусе */
+}
