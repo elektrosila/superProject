@@ -30,15 +30,15 @@ p {
   justify-content: space-around;
   border: 1px solid black;
   justify-content: space-between;
-  border-radius: 8px; /* Добавлено для округлых углов */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Легкая тень */
+  border-radius: 8px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .partner-card:hover {
   background-color: #2196f37a;
   cursor: pointer;
-  transform: translateY(-5px); /* Добавлено для эффекта подъема */
+  transform: translateY(-5px); 
 }
 
 .card_heading {
@@ -152,9 +152,8 @@ label {
   margin-bottom: 15px;
 }
 
-/* Дополнительно улучшение фокуса */
 input:focus, select:focus {
   border-color: #2196F3;
   background-color: #fff;
-  box-shadow: 0 0 5px rgba(33, 150, 243, 0.5); /* Легкая тень при фокусе */
+  box-shadow: 0 0 5px rgba(33, 150, 243, 0.5); 
 }
